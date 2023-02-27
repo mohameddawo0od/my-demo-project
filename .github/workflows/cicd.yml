@@ -30,7 +30,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Build with Maven
+    - name: Build with Mavenn
       run: mvn -B package --file pom.xml
 
     - name: Configure AWS credentials
